@@ -13255,7 +13255,7 @@ YMvMzMzMzKwAHmyZmZmZmZkV4P8BCeCwYlvz74cAAAAASUVORK5CYII=
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer: </strong></p>
-<p>For the max depth 3 curve the testing and training curves are converging as the number of training points increases. This means that the model is most likely not overfitting the data (hence the decreasing test curve and converging of the two curves). More data points (which could be difficult and/or expensive to collect) would not significantly improve the model.</p>
+<p>For the max depth 3 curve the testing and training curves are converging as the number of training points increases. With the more data points, training curve is decreasing (corresponding to decreasing variance) while the testing curve is increasing in accuracy (corresponding to decreasing bias). This means that the model is most likely not overfitting the data (hence the decreasing training curve and converging of the two curves). More data points (which could be difficult and/or expensive to collect) would not significantly improve the model because the lines are converging toward ~0.8, which would not change signficantly with more data.</p>
 
 </div>
 </div>
