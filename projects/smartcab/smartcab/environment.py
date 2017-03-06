@@ -3,6 +3,7 @@ import random
 import math
 from collections import OrderedDict
 from simulator import Simulator
+import numpy as np
 
 
 class TrafficLight(object):
